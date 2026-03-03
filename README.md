@@ -75,3 +75,6 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 - Atender.
 
 ![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/j.png)
+
+- Limpiar todos los muelles (Limpiar cola)
+
