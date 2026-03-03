@@ -48,7 +48,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - No hay persistencia en base de datos (modo memoria).
 
-## **✅ Interfaz Gráfica**
+## **✅ Interfaz**
 
 - Registro de embarcaciones.
 
