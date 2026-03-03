@@ -61,7 +61,9 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 ## **📋  Registro y Administración**
 
 - Registrar embarcación.
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/161df88fe93529017551ffc2df81536c8d0aeeb6/u.png)
+
 - Listar embarcaciones ordenadas.
 
 - Ver siguiente.
