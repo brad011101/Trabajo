@@ -55,4 +55,5 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 - Visualización en tabla ordenada por prioridad.
 
 - Botones: Registrar, Ver siguiente, Atender, Cargar demo, Limpiar cola
-![image alt] (https://github.com/brad011101/Trabajo/blob/2e3c1794176a61e879413eec94fa44ff9206eede/Imagen1.png)
+
+![image alt](https://github.com/brad011101/Trabajo/blob/2e3c1794176a61e879413eec94fa44ff9206eede/Imagen1.png)
