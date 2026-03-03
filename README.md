@@ -66,7 +66,12 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Listar embarcaciones ordenadas.
 
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/R.png)
+
 - Ver siguiente.
+
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/O.png)
 
 - Atender.
 
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/j.png)
