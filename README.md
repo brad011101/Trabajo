@@ -84,4 +84,20 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 <img width="843" height="626" alt="image" src="https://github.com/user-attachments/assets/c9ac2f98-cc0f-4498-a175-99ef9f26c230" />
 
+## **Procesamiento con Estructura de Datos**
 
+- Uso de PriorityQueue<Embarcacion>
+
+- Implementación de Comparable
+
+#### Desempate por:
+
+- Mayor prioridad
+
+- Más horas esperando
+
+-  Orden FIFO
+
+<img width="906" height="692" alt="image" src="https://github.com/user-attachments/assets/cf25641f-9907-490b-abb9-90fc4399550e" />
+
+  
