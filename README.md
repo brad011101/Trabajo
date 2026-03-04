@@ -134,3 +134,32 @@ Fórmula:
 
 <img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/0654e87e-5067-45f3-845d-f2604e66fe9e" />
 
+## **📑Reportes y Métricas**
+
+- Orden completo de atención.
+
+- Muelles disponibles dinámicos.
+
+- Registro visual de eventos.
+
+- Prioridad calculada visible en tabla.
+# **📚 Librerías Utilizadas**
+
+### **Librerías estándar de Java**
+
+java.util → PriorityQueue, List
+
+java.nio.file → Configuración y verificación
+
+java.io → Lectura de archivos
+
+javax.swing → Interfaz gráfica
+
+java.time → Logs
+
+### *No se uso  librerías adicionales*
+
+### **Versión recomendada de Java**
+
+JDK 17 o superior
+
