@@ -83,7 +83,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Cargar Demo
 
-<img width="843" height="626" alt="image" src="https://github.com/user-attachments/assets/c9ac2f98-cc0f-4498-a175-99ef9f26c230" />
+<img width="644" height="478" alt="image" src="https://github.com/user-attachments/assets/ee303ccb-89d5-4202-9f9d-f22e1b56d70e" />
 
 ###  **⚙️ Procesamiento con Estructura de Datos**
 
@@ -99,7 +99,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 -  Orden FIFO
 
-<img width="906" height="692" alt="image" src="https://github.com/user-attachments/assets/cf25641f-9907-490b-abb9-90fc4399550e" />
+<img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
 
 ###  **📠Cálculo de Prioridad**
 
