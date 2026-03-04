@@ -14,6 +14,13 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Proyectos educativos en Java (PriorityQueue + Comparator)
 
+## **🚀Ejecución del Proyecto**
+1️⃣ Abrir la carpeta del proyecto.
+
+2️⃣Ir a la carpeta scripts.
+
+3️⃣hacer doble clic en run_windows o run_linux si ultiliza este sistema.
+
 ## **🔁 Flujo Principal del Sistema**
 ####  Entrada
 - Registro manual de embarcación desde la interfaz gráfica.
@@ -163,3 +170,31 @@ java.time → Logs
 
 JDK 17 o superior
 
+## **Cambios realizados (bitácora técnica)**
+### *Lista de cambios*
+Se modificó el log para que dependiendo la novedad salga el texto de un color diferente.
+
+VERDE: Acción realizada.
+
+ROJO: Si surge un error.
+
+NEGRO: Información.
+
+AZUL: Avisa el inicio correcto del programa.
+
+Calculo de la prioridad de las embarcaciones dependiendo de su nivel de emergencia, si es premium,  y las horas que se quedará.
+
+Función para atender  barcos partiendo del más prioritario al menos.
+
+Registro de nuevas embarcaciones.
+
+### *Mejoras realizadas*
+Registro unico de placa (No se pueden repetir barcos).
+
+Limite de muelles (Sólo se pueden registrar 10 barcos).
+
+Log con texto multicolor para diferenciar errores de acciones exitosas.
+
+Aviso de muelles disponibles.
+
+Corrección en la UI: Deshabilitacion de uso de teclado en el aspecto de numero de horas de esperas  y nivel de emergencia.
