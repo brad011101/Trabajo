@@ -80,3 +80,5 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 ![image alt](https://github.com/brad011101/Trabajo/blob/19da32ca140f5b2e6edb14392db878b16fa3b98b/y.png)
 
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/12fcbe58-50e2-4b3c-8978-3439e7c7f41f" />
+
