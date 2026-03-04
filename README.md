@@ -172,29 +172,44 @@ JDK 17 o superior
 
 ## **Cambios realizados (bitácora técnica)**
 ### *Lista de cambios*
-Se modificó el log para que dependiendo la novedad salga el texto de un color diferente.
+Se rediseñó el sistema de log para mostrar mensajes en distintos colores según el tipo de evento:
 
-VERDE: Acción realizada.
+🟢 Verde: Acciones realizadas correctamente.
 
-ROJO: Si surge un error.
+🔴 Rojo: Errores o validaciones fallidas.
 
-NEGRO: Información.
+⚫ Negro: Información general del sistema.
 
-AZUL: Avisa el inicio correcto del programa.
+🔵 Azul: Confirmación del inicio correcto del programa.
 
-Calculo de la prioridad de las embarcaciones dependiendo de su nivel de emergencia, si es premium,  y las horas que se quedará.
+Se implementó el cálculo dinámico de prioridad de las embarcaciones considerando:
 
-Función para atender  barcos partiendo del más prioritario al menos.
+Nivel de emergencia.
 
-Registro de nuevas embarcaciones.
+Tipo de carga.
+
+Estado premium.
+
+Horas de espera.
+
+Parámetros configurables desde config.properties.
+
+Se desarrolló la función de atención automática de embarcaciones utilizando una PriorityQueue, garantizando que siempre se atienda primero la de mayor prioridad.
+
+Se añadió la funcionalidad para registrar nuevas embarcaciones desde la interfaz gráfica con validaciones incluidas.
 
 ### *Mejoras realizadas*
-Registro unico de placa (No se pueden repetir barcos).
+Se implementó validación de matrícula única, evitando el registro de embarcaciones duplicadas.
 
-Limite de muelles (Sólo se pueden registrar 10 barcos).
+Se estableció un límite máximo de 10 muelles, impidiendo registrar más embarcaciones cuando la capacidad está completa.
 
-Log con texto multicolor para diferenciar errores de acciones exitosas.
+Se mejoró el sistema de log visual con texto multicolor para facilitar la identificación rápida de errores y acciones exitosas.
 
-Aviso de muelles disponibles.
+Se agregó un indicador dinámico que muestra en tiempo real la cantidad de muelles disponibles.
 
-Corrección en la UI: Deshabilitacion de uso de teclado en el aspecto de numero de horas de esperas  y nivel de emergencia.
+Se corrigió la interfaz gráfica deshabilitando la entrada manual por teclado en los campos de:
+
+Nivel de emergencia.
+
+Horas de espera.
+Esto evita errores de formato y mejora la validación de datos.
