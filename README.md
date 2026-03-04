@@ -1,4 +1,4 @@
-# Puerto Priority Manager
+# **Puerto Priority Manager**
 
 Puerto Priority Manager es una aplicación en Java que gestiona el orden de atención de embarcaciones en un puerto utilizando una cola de prioridad.
 
@@ -14,19 +14,19 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Proyectos educativos en Java (PriorityQueue + Comparator)
 
-## **Flujo Principal del Sistema**
-### Entrada
+## **🔁 Flujo Principal del Sistema**
+####  Entrada
 - Registro manual de embarcación desde la interfaz gráfica.
 - Carga automática de datos demo.
 - Parámetros de prioridad definidos en config.properties.
 
-### Procesamiento
+####  Procesamiento
 
 - Validación de datos.
 - Cálculo de prioridad usando datos configurables.
 - Inserción en PriorityQueue<Embarcacion>.
 
-### Salida
+####  Salida
 
 - Visualización ordenada en tabla.
 
@@ -34,7 +34,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Registro visual de eventos en consola integrada.
 
-## **Restricciones y Supuestos**
+###  **Restricciones y Supuestos**
 
 - Máximo 10 muelles simultáneos.
 
@@ -48,7 +48,8 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - No hay persistencia en base de datos (modo memoria).
 
-## **✅ Interfaz**
+##  **Funcionalidades implementadas**
+###  **🎛️ Interfaz**
 
 - Registro de embarcaciones.
 
@@ -58,7 +59,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 ![image alt](https://github.com/brad011101/Trabajo/blob/2e3c1794176a61e879413eec94fa44ff9206eede/Imagen1.png)
 
-## **📋  Registro, Administración y Operaciones principales**
+### **📋  Registro, Administración y Operaciones principales**
 
 - Registrar embarcación.
 
@@ -84,7 +85,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 <img width="843" height="626" alt="image" src="https://github.com/user-attachments/assets/c9ac2f98-cc0f-4498-a175-99ef9f26c230" />
 
-## **Procesamiento con Estructura de Datos**
+###  **⚙️ Procesamiento con Estructura de Datos**
 
 - Uso de PriorityQueue<Embarcacion>
 
@@ -100,4 +101,25 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 <img width="906" height="692" alt="image" src="https://github.com/user-attachments/assets/cf25641f-9907-490b-abb9-90fc4399550e" />
 
-  
+###  **📠Cálculo de Prioridad**
+
+Se basa en config.properties:
+
+priority.peligrosa=10
+
+priority.perecible=7
+
+priority.normal=3
+
+priority.emergenciaFactor=2
+
+priority.premium=5
+
+priority.esperaFactor=2
+
+Fórmula:
+
+#### Prioridad = pesoTipoCarga
+- (nivelEmergencia * emergenciaFactor)
+- premiumWeight
+- (horasEsperando / esperaFactor)  
