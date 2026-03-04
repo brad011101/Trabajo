@@ -2,7 +2,7 @@
 
 Puerto Priority Manager es una aplicación en Java que gestiona el orden de atención de embarcaciones en un puerto utilizando una cola de prioridad.
 
-## 🎯 **Objetivo**
+## 🎯**Objetivo**
 
 Es tener un sistema de gestión de atraques en un puerto que administra embarcaciones mediante una cola de prioridad, determinando el orden de atención según reglas configurables (tipo de carga, emergencia, contrato premium y tiempo de espera).
 
@@ -21,7 +21,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 3️⃣hacer doble clic en run_windows o run_linux si ultiliza este sistema.
 
-## **🔁 Flujo Principal del Sistema**
+## **🔁Flujo Principal del Sistema**
 ####  Entrada
 - Registro manual de embarcación desde la interfaz gráfica.
 - Carga automática de datos demo.
@@ -56,7 +56,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 - No hay persistencia en base de datos (modo memoria).
 
 ##  **Funcionalidades implementadas**
-###  **🎛️ Interfaz**
+###  **🎛️Interfaz**
 
 - Registro de embarcaciones.
 
@@ -64,7 +64,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Botones: Registrar, Ver siguiente, Atender, Cargar demo, Limpiar cola
 
-### **📋  Registro, Administración y Operaciones principales**
+### **📋Registro, Administración y Operaciones principales**
 
 - Registrar embarcación.
 
@@ -80,7 +80,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 
 
-###  **⚙️ Procesamiento con Estructura de Datos**
+###  **⚙️Procesamiento con Estructura de Datos**
 
 - Uso de PriorityQueue<Embarcacion>
 
@@ -132,7 +132,7 @@ Fórmula:
 - Registro visual de eventos.
 
 - Prioridad calculada visible en tabla.
-# **📚 Librerías Utilizadas**
+# **📚Librerías Utilizadas**
 
 ### **Librerías estándar de Java**
 
@@ -205,14 +205,24 @@ Esto evita errores de formato y mejora la validación de datos.
 
   <img width="644" height="478" alt="image" src="https://github.com/user-attachments/assets/ee303ccb-89d5-4202-9f9d-f22e1b56d70e" />
 
-  - Evidencia 3 Errores.
+- Evidencia 3 Errores.
+
 <img width="738" height="552" alt="image" src="https://github.com/user-attachments/assets/079c6980-707e-4b98-9084-8350866f796a" />
+
 <img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/0654e87e-5067-45f3-845d-f2604e66fe9e" />
+
 - Evidencia 4 Registro, Administración y Operaciones principales
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/161df88fe93529017551ffc2df81536c8d0aeeb6/u.png)
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/R.png)
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/O.png)
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/j.png)
+
 ![image alt](https://github.com/brad011101/Trabajo/blob/19da32ca140f5b2e6edb14392db878b16fa3b98b/y.png)
+
 -Evidencia 5 Procesamiento con Estructura de Datos
+
 <img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
