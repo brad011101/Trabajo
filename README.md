@@ -64,33 +64,21 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 - Botones: Registrar, Ver siguiente, Atender, Cargar demo, Limpiar cola
 
-![image alt](https://github.com/brad011101/Trabajo/blob/2e3c1794176a61e879413eec94fa44ff9206eede/Imagen1.png)
-
 ### **📋  Registro, Administración y Operaciones principales**
 
 - Registrar embarcación.
 
-![image alt](https://github.com/brad011101/Trabajo/blob/161df88fe93529017551ffc2df81536c8d0aeeb6/u.png)
-
 - Listar embarcaciones ordenadas.
-
-![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/R.png)
 
 - Ver siguiente.
 
-![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/O.png)
-
 - Atender.
-
-![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/j.png)
 
 - Limpiar todos los muelles (Limpiar cola)
 
-![image alt](https://github.com/brad011101/Trabajo/blob/19da32ca140f5b2e6edb14392db878b16fa3b98b/y.png)
-
 - Cargar Demo
 
-<img width="644" height="478" alt="image" src="https://github.com/user-attachments/assets/ee303ccb-89d5-4202-9f9d-f22e1b56d70e" />
+
 
 ###  **⚙️ Procesamiento con Estructura de Datos**
 
@@ -106,7 +94,6 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 -  Orden FIFO
 
-<img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
 
 ###  **📠Cálculo de Prioridad**
 
@@ -134,12 +121,7 @@ Fórmula:
 ## **🚨Manejo de Errores y Validaciones**
 - Matrícula inválida
 - Matrícula duplicada
-
-<img width="738" height="552" alt="image" src="https://github.com/user-attachments/assets/079c6980-707e-4b98-9084-8350866f796a" />
-
 - Límite de muelles alcanzado
-
-<img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/0654e87e-5067-45f3-845d-f2604e66fe9e" />
 
 ## **📑Reportes y Métricas**
 
@@ -166,11 +148,11 @@ java.time → Logs
 
 ### *No se uso  librerías adicionales*
 
-### **Versión recomendada de Java**
+### **☕Versión recomendada de Java**
 
 JDK 17 o superior
 
-## **Cambios realizados (bitácora técnica)**
+## **♻️Cambios realizados (bitácora técnica)**
 ### *Lista de cambios*
 Se rediseñó el sistema de log para mostrar mensajes en distintos colores según el tipo de evento:
 
@@ -213,3 +195,24 @@ Nivel de emergencia.
 
 Horas de espera.
 Esto evita errores de formato y mejora la validación de datos.
+
+## **🧾Evidencias**
+- Evidencia 1 Capturas de ejecución (terminal o consola)
+
+  <img width="718" height="387" alt="image" src="https://github.com/user-attachments/assets/795537ca-ba79-44a1-a3d9-9a1c5f4dcc12" />
+
+- Evidencia 2  Cargar demo
+
+  <img width="644" height="478" alt="image" src="https://github.com/user-attachments/assets/ee303ccb-89d5-4202-9f9d-f22e1b56d70e" />
+
+  - Evidencia 3 Errores.
+<img width="738" height="552" alt="image" src="https://github.com/user-attachments/assets/079c6980-707e-4b98-9084-8350866f796a" />
+<img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/0654e87e-5067-45f3-845d-f2604e66fe9e" />
+- Evidencia 4 Registro, Administración y Operaciones principales
+![image alt](https://github.com/brad011101/Trabajo/blob/161df88fe93529017551ffc2df81536c8d0aeeb6/u.png)
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/R.png)
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/O.png)
+![image alt](https://github.com/brad011101/Trabajo/blob/292eca94261ce4bd99f61f7fef7ca7d88bb76029/j.png)
+![image alt](https://github.com/brad011101/Trabajo/blob/19da32ca140f5b2e6edb14392db878b16fa3b98b/y.png)
+-Evidencia 5 Procesamiento con Estructura de Datos
+<img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
