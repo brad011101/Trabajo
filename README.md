@@ -58,7 +58,7 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 ![image alt](https://github.com/brad011101/Trabajo/blob/2e3c1794176a61e879413eec94fa44ff9206eede/Imagen1.png)
 
-## **📋  Registro y Administración**
+## **📋  Registro, Administración y Operaciones principales**
 
 - Registrar embarcación.
 
@@ -80,5 +80,8 @@ Es tener un sistema de gestión de atraques en un puerto que administra embarcac
 
 ![image alt](https://github.com/brad011101/Trabajo/blob/19da32ca140f5b2e6edb14392db878b16fa3b98b/y.png)
 
-<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/12fcbe58-50e2-4b3c-8978-3439e7c7f41f" />
+- Cargar Demo
+
+<img width="843" height="626" alt="image" src="https://github.com/user-attachments/assets/c9ac2f98-cc0f-4498-a175-99ef9f26c230" />
+
 
