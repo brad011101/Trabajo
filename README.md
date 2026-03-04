@@ -123,3 +123,14 @@ Fórmula:
 - (nivelEmergencia * emergenciaFactor)
 - premiumWeight
 - (horasEsperando / esperaFactor)  
+
+## **🚨Manejo de Errores y Validaciones**
+- Matrícula inválida
+- Matrícula duplicada
+
+<img width="830" height="620" alt="image" src="https://github.com/user-attachments/assets/f1b620c2-5e39-41b7-974e-42cf0d1f4b84" />
+
+- Límite de muelles alcanzado
+
+<img width="700" height="511" alt="image" src="https://github.com/user-attachments/assets/0654e87e-5067-45f3-845d-f2604e66fe9e" />
+
