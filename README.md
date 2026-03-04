@@ -128,7 +128,7 @@ Fórmula:
 - Matrícula inválida
 - Matrícula duplicada
 
-<img width="830" height="620" alt="image" src="https://github.com/user-attachments/assets/f1b620c2-5e39-41b7-974e-42cf0d1f4b84" />
+<img width="738" height="552" alt="image" src="https://github.com/user-attachments/assets/079c6980-707e-4b98-9084-8350866f796a" />
 
 - Límite de muelles alcanzado
 
