@@ -231,13 +231,13 @@ Esto evita errores de formato y mejora la validación de datos.
 ```text
 PuertoPriorityManager_Starter/
 │
-├── .vs/
-├── build/
-├── checksums/
-├── config/
-├── scripts/
-├── src/
-└── README.md
+├── .vs/           → Archivos de configuración del entorno 
+├── build/         → Archivos compilados del proyecto
+├── checksums/     → Archivos de verificación
+├── config/        → Archivo config.properties
+│   └── run_windows.bat
+├── src/           → Código fuente del proyecto
+├── README         → Documentación del proyecto
 
 ## **🧩Convenciones y Organización del Código**
 ### 📌Modelo
