@@ -228,15 +228,16 @@ Esto evita errores de formato y mejora la validación de datos.
 <img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
 
 ## **🏗️Árbol del proyecto**
+```text
 PuertoPriorityManager_Starter/
 │
-├── .vs/           → Configuración del entorno de desarrollo
-├── build/         → Archivos compilados
-├── checksums/     → Verificación de integridad
-├── config/        → Archivo config.properties
-├── scripts/       → Script de ejecución (run_windows.bat)
-├── src/           → Código fuente Java
-└── README.md      → Documentación del proyecto
+├── .vs/
+├── build/
+├── checksums/
+├── config/
+├── scripts/
+├── src/
+└── README.md
 
 ## **🧩Convenciones y Organización del Código**
 ### 📌Modelo
