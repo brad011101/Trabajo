@@ -228,7 +228,7 @@ Esto evita errores de formato y mejora la validación de datos.
 <img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
 
 ## **🏗️Árbol del proyecto**
-```text
+```
 PuertoPriorityManager_Starter/
 │
 ├── .vs/           → Archivos de configuración del entorno 
@@ -238,6 +238,7 @@ PuertoPriorityManager_Starter/
 │   └── run_windows.bat
 ├── src/           → Código fuente del proyecto
 ├── README         → Documentación del proyecto
+```
 
 ## **🧩Convenciones y Organización del Código**
 ### 📌Modelo
