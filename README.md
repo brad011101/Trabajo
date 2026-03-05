@@ -272,3 +272,23 @@ PuertoPriorityManager_Starter/
 - Validaciones de formato de matrícula.
 
 - Sistema de log con colores según tipo de mensaje.
+
+## **⚠️Problemas Comunes y Soluciones**
+#### **❌No abre la aplicación**
+
+Verificar que Java esté instalado y agregado al PATH.
+
+Comprobar versión:
+
+java -version
+
+Debe ser JDK 17 o superior.
+#### **❌Error: No se encuentra config.properties**
+
+Asegurarse de que el archivo esté en la ubicación correcta (raíz o carpeta config según implementación).
+
+#### **❌El script run_windows.bat no ejecuta**
+
+Verificar permisos de ejecución.
+
+Confirmar que Java esté instalado correctamente.
