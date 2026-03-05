@@ -226,3 +226,49 @@ Esto evita errores de formato y mejora la validación de datos.
 -Evidencia 5 Procesamiento con Estructura de Datos
 
 <img width="685" height="523" alt="image" src="https://github.com/user-attachments/assets/4b355e58-9129-4ac6-a93c-190df85b3ac1" />
+
+## **🏗️Árbol del proyecto**
+PuertoPriorityManager_Starter/
+│
+├── .vs/           → Configuración del entorno de desarrollo
+├── build/         → Archivos compilados
+├── checksums/     → Verificación de integridad
+├── config/        → Archivo config.properties
+├── scripts/       → Script de ejecución (run_windows.bat)
+├── src/           → Código fuente Java
+└── README.md      → Documentación del proyecto
+
+## **🧩Convenciones y Organización del Código**
+### 📌Modelo
+
+- Embarcacion.java
+
+- Representa la entidad principal del sistema.
+
+- Implementa Comparable para permitir el ordenamiento por prioridad.
+
+### ⚙️Lógica de Negocio
+
+- PuertoManager.java
+
+- Gestiona la PriorityQueue.
+
+- Controla registro, atención y validaciones.
+
+- Aplica reglas de prioridad.
+
+### 🖥️Interfaz (UI)
+
+- Main.java
+
+- Contiene la interfaz gráfica desarrollada con Swing.
+
+- Maneja eventos de botones y muestra los resultados en tabla y log.
+
+### 🛠️Utilidades
+
+- Lectura de config.properties para parámetros dinámicos.
+
+- Validaciones de formato de matrícula.
+
+- Sistema de log con colores según tipo de mensaje.
